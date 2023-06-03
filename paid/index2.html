@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!-- This is navbar -->
+    <div class="navbar">
+      <div><img src="../logo1.JPEG" width="45px" alt="logo" /></div>
+      <div class="flexbox">
+        <center>
+          <div style="color: #000000">
+            <span style="color: red">T</span>rain
+          </div>
+        </center>
+        <div>___with <span style="color: red">J</span>SB___</div>
+      </div>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+    </div>
+    <!-- This is the section that opens -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <center>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/home.png" />
+          <a href="..">Home</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/calendar.png" />
+          <a href="#">Plan</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/chest.png" />
+          <a href="../chest">Chest</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/arms.png" />
+          <a href="#">Arms</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/abs.png" />
+          <a href="#">Abs</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/back.png" />
+          <a href="#">Back</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/delts.png" />
+          <a href="#">Delts</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../icon/leg.png" />
+          <a href="#">Legs</a>
+        </div>
+        <hr style="margin-bottom: 100px" />
+      </center>
+    </div>
+    <div class="container">
+      <div class="background-container">
+        <div class="content">
+          <center><h1 class="calendarH1">Let's start!</h1></center>
+          <!-- This is calendar -->
+          <div class="weekdays">
+            <center>
+              <p
+                style="
+                  color: #ffffff;
+                  background-color: red;
+                  width: fit-content;
+                  padding: 5px;
+                "
+              >
+                SELECT DAY
+              </p>
+            </center>
+            DIET AND TRAINING PLAN FOR 30 DAYS
+          </div>
+          <ul class="days">
+            <a href="1"><li>1</li></a>
+            <a href="2"><li>2</li></a>
+            <a href="3"> <li>3</li></a>
+            <a href="4"><li>4</li></a>
+            <a href="5"><li>5</li></a>
+            <a href="6"> <li>6</li></a>
+            <a href="7"> <li>7</li></a>
+            <a href="1"><li>8</li></a>
+            <a href="2"><li>9</li></a>
+            <a href="3"><li>10</li></a>
+            <a href="4"><li>11</li></a>
+            <a href="5"><li>12</li></a>
+            <a href="6"><li>13</li></a>
+            <a href="7"><li>14</li></a>
+            <a href="1"><li>15</li></a>
+            <a href="2"><li>16</li></a>
+            <a href="3"><li>17</li></a>
+            <a href="4"><li>18</li></a>
+            <a href="5"><li>19</li></a>
+            <a href="6"><li>20</li></a>
+            <a href="7"><li>21</li></a>
+            <a href="1"><li>22</li></a>
+            <a href="2"><li>23</li></a>
+            <a href="3"><li>24</li></a>
+            <a href="4"><li>25</li></a>
+            <a href="5"><li>26</li></a>
+            <a href="6"><li>27</li></a>
+            <a href="7"><li>28</li></a>
+            <a href="1"><li>29</li></a>
+            <a href="2"><li>30</li></a>
+            <a href="3"><li>31</li></a>
+          </ul>
+          <br />
+          <div class="flex1">
+            <button class="btn1" style="background-color: rgb(0, 102, 128)">
+              DIET PLAN
+            </button>
+            <button class="btn1">TRAINING PLAN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
