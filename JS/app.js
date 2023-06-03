@@ -1,7 +1,7 @@
 function checkPassword() {
   var password = document.getElementById("password").value;
   if (password === "123") {
-    window.location.href = "index2.html";
+    window.location.href = "./calendar/";
   } else {
     alert("Incorrect password. Please try again.");
   }

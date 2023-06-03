@@ -57,6 +57,13 @@ body {
   transition: 0.5s;
   padding-top: 60px;
   border: 2px solid rgb(168, 168, 168);
+  display: flex;
+  justify-content: center;
+}
+.centring {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sidenav a {
@@ -75,9 +82,10 @@ hr {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 0;
   font-size: 36px;
   margin-right: 50px;
+  padding: 10px;
 }
 /* headline */
 .headline {
