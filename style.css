@@ -95,6 +95,8 @@ hr {
   position: absolute;
   object-fit: cover;
   z-index: 0;
+  -webkit-animation: loop-video 2s infinite;
+  animation: loop-video 2s infinite;
 }
 .headline .headline1 {
   z-index: 1;
