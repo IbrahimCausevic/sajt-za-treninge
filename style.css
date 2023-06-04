@@ -264,6 +264,9 @@ button {
   width: 90%;
   background-color: #686868;
 }
+.selected {
+  background-color: #ff0000;
+}
 .navBtn:hover {
   background-color: #ff0000;
   transition: 1s;
