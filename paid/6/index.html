@@ -7,11 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
   </head>
-  <body>
+  <body style="background-color: rgb(103, 255, 103)">
     <!-- This is navbar -->
     <div class="navbar">
-      <div class="name">JSSB</div>
-      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      <div><img src="/logo1.JPEG" width="45px" alt="logo" /></div>
+      <div class="flexbox">
+        <center>
+          <div style="color: #000000">
+            <span style="color: red">T</span>rain
+          </div>
+        </center>
+        <div>___with <span style="color: red">J</span>SB___</div>
+      </div>
+      <span style="font-size: 35px; cursor: pointer" onclick="openNav()"
         >&#9776;
       </span>
     </div>
@@ -24,12 +32,12 @@
         <hr />
         <div class="navBtn">
           <img class="icon" src="../../icon/home.png" />
-          <a href="../..">Home</a>
+          <a href="/">Home</a>
         </div>
         <hr />
         <div class="navBtn">
           <img class="icon" src="../../icon/calendar.png" />
-          <a href="../../paid">Plan</a>
+          <a href="../calendar/">Plan</a>
         </div>
         <hr />
         <div class="navBtn">
@@ -65,47 +73,16 @@
       </center>
     </div>
     <div class="main">
-      <h1>What we're working on today:</h1>
-      <div class="section">
-        <h2>chest and shoulders</h2>
-        <hr />
-        <h3>1) exercise: Bench Press</h3>
-        <div class="highlight">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sint
-            quam, temporibus exercitationem eligendi consequatur placeat,
-            debitis nam inventore quia quibusdam molestiae tempore at voluptas.
-            Veniam quas officia ea dolorem!
-          </p>
-        </div>
-        <h2>Video:</h2>
-        <iframe
-          width="100%"
-          src="https://www.youtube.com/embed/rT7DgCr-3pg"
-          title="How To: Barbell Bench Press"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <hr />
-        <h3>2) exercise: Dumbell fly</h3>
-        <div class="highlight">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sint
-            quam, temporibus exercitationem eligendi consequatur placeat,
-            debitis nam inventore quia quibusdam molestiae tempore at voluptas.
-            Veniam quas officia ea dolorem!
-          </p>
-        </div>
-        <h2>Video:</h2>
-        <iframe
-          width="100%"
-          src="https://www.youtube.com/embed/eozdVDA78K0"
-          title="How To: Dumbbell Flys On A Flat Bench"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+      <div class="workout">
+        <center>
+          <h2>REST DAY</h2>
+
+          <br />
+          <div class="btnContainer">
+            <button onclick="history.back()">Go back</button>
+            <a href="../7/"><button>Next day's training</button></a>
+          </div>
+        </center>
       </div>
     </div>
     <script>

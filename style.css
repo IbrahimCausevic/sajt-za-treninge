@@ -353,6 +353,11 @@ ul {
   display: flex;
   justify-content: center;
 }
+.abs {
+  background-color: rgb(61, 246, 61);
+  margin-bottom: 10px;
+  border: 3px solid white;
+}
 input {
   border: 2px solid rgb(187, 1, 1);
   border-radius: 30px;
