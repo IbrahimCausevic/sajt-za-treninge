@@ -7,6 +7,15 @@ function checkPassword() {
   }
 }
 
+function WPassword() {
+  var password = document.getElementById("password").value;
+  if (password === "321") {
+    window.location.href = "../calendar/";
+  } else {
+    alert("Incorrect password. Please try again.");
+  }
+}
+
 function goBack() {
   window.history.back();
 }
