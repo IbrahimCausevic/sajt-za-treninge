@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!-- This is navbar -->
+    <div class="navbar">
+      <div><img src="/logo1.JPEG" width="45px" alt="logo" /></div>
+      <div class="flexbox">
+        <center>
+          <div style="color: #000000">
+            <span style="color: red">T</span>rain
+          </div>
+        </center>
+        <div>___with <span style="color: red">J</span>SB___</div>
+      </div>
+      <span style="font-size: 35px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+    </div>
+    <!-- This is the section that opens -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <center>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/home.png" />
+          <a href="/">Home</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/calendar.png" />
+          <a href="../calendar/">Plan</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/chest.png" />
+          <a href="../../chest">Chest</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/arms.png" />
+          <a href="#">Arms</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/abs.png" />
+          <a href="#">Abs</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/back.png" />
+          <a href="#">Back</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/delts.png" />
+          <a href="#">Delts</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/leg.png" />
+          <a href="#">Legs</a>
+        </div>
+        <hr style="margin-bottom: 100px" />
+      </center>
+    </div>
+    <div class="main">
+      <h1>What we're working on today:</h1>
+      <div class="workout">
+        <h2>
+          <span style="color: red">Arms</span> +
+          <span style="color: red">ABS</span>
+        </h2>
+        <hr />
+        <div>
+          <p>1) Biceps with dumbbells, 10 repetitions per arm, 3 sets.</p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(4).mp4" />
+        </video>
+        <hr />
+        <div>
+          <p>2) Triceps on the cable straight bar, 3 sets of 10 repetitions.</p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(5).mp4" />
+        </video>
+        <hr />
+        <div>
+          <p>
+            3) Biceps curls with a curved barbell, 3 sets of 10 repetitions.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(3).mp4" />
+        </video>
+        <hr />
+        <div>
+          <p>
+            4) Triceps with a rope, extend your arms fully, 3 sets of 10
+            repetitions.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(2).mp4" />
+        </video>
+        <hr />
+        <div>
+          <p>
+            5) Biceps on the cable straight bar, start with the heaviest weight
+            for 8 repetitions, immediately without a break reduce the weight for
+            another 8 repetitions, then without a break reduce the weight again
+            and perform partial reps from 90 degrees upwards quickly for 12
+            repetitions. Repeat this circuit 3 times with a 30-second rest
+            between circuits.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(7).mp4" />
+        </video>
+        <hr />
+        <div>
+          <p>
+            6) Triceps pushdowns with a twist, 10 repetitions, immediately
+            return to the starting position without a pause and do 10 more
+            repetitions. Repeat this circuit 3 times with a 30-second rest
+            between circuits.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender(6).mp4" />
+        </video>
+        <div>
+          <p>
+            7) Combine 2 exercises for biceps and triceps: Start with 8 slow
+            repetitions for biceps, holding for 2 seconds at the top,
+            immediately without a break, do 8 repetitions for triceps. Repeat
+            this circuit 3 times with a 30-second rest between circuits.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender.mp4" />
+        </video>
+        <hr />
+        <div></div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/5 day/FullSizeRender (1).mp4" />
+        </video>
+        <center>
+          <a href="../abs/index.html"
+            ><button class="abs">Start ABS training</button></a
+          >
+          <br />
+          <div class="btnContainer">
+            <button onclick="history.back()">Go back</button>
+            <a href="../13/"><button>Next day's training</button></a>
+          </div>
+        </center>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
