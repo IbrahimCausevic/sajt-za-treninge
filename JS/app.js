@@ -16,6 +16,15 @@ function WPassword() {
   }
 }
 
+function DietPassword() {
+  var password = document.getElementById("password").value;
+  if (password === "456") {
+    window.location.href = "../dietplan/";
+  } else {
+    alert("Incorrect password. Please try again.");
+  }
+}
+
 function goBack() {
   window.history.back();
 }
