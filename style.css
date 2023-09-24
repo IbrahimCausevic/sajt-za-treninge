@@ -364,6 +364,12 @@ ul {
   padding: 5px;
   border-radius: 10px;
 }
+.meal_title {
+  margin: 7px;
+  width: 80%;
+  background-color: #b8b8b8;
+  border-radius: 10px;
+}
 .mealimg {
   display: flex;
   justify-content: center;
