@@ -30,6 +30,23 @@ body {
   width: 45%;
   font-size: 20px;
 }
+.btn2 {
+  padding: 15px;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.note {
+  background-color: rgb(55, 148, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.note .title {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 3px;
+}
 .navbar {
   position: sticky;
   top: 0;
@@ -286,7 +303,7 @@ button {
 }
 .container .background-container {
   padding: 20px;
-  background-image: url(media/img4.webp);
+  background-image: url(media/img4.JPG);
 }
 .calendarH1 {
   background-color: rgba(255, 255, 255, 0.64);

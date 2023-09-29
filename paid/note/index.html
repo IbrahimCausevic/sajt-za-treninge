@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!-- This is navbar -->
+    <div class="navbar">
+      <div><img src="/logo1.JPEG" width="45px" alt="logo" /></div>
+      <div class="flexbox">
+        <center>
+          <div style="color: #000000">
+            <span style="color: red">T</span>rain
+          </div>
+        </center>
+        <div>___with <span style="color: red">J</span>SB___</div>
+      </div>
+      <span style="font-size: 35px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+    </div>
+    <!-- This is the section that opens -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <center>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/home.png" />
+          <a href="/">Home</a>
+        </div>
+        <hr />
+        <div class="navBtn">
+          <img class="icon" src="../../icon/calendar.png" />
+          <a href="../calendar/">Plan</a>
+        </div>
+        <hr style="margin-bottom: 100px" />
+      </center>
+    </div>
+    <div class="main">
+      <h1 style="color: red">Note:</h1>
+      <div class="workout">
+        <hr />
+        <div>
+          <p>
+            In each exercise with a barbell, your thumb should go over the bar
+            as shown in the video. This is just an example for one exercise, but
+            you should apply this advice to other barbell exercises as well, as
+            it helps protect your joints.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/IMG_0.MOV" />
+        </video>
+        <hr />
+        <div>
+          <p>
+            In every exercise, the posture is crucial; your back and spine must
+            be in an upright position. Here's an example of one exercise, and
+            please maintain this posture throughout all the others.
+          </p>
+        </div>
+        <video width="100%" height="240" controls>
+          <source src="../../media/videos/IMG_0 (1).MOV" />
+        </video>
+        <center>
+          <br />
+          <div class="btnContainer">
+            <button onclick="history.back()">Go back</button>
+          </div>
+        </center>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
